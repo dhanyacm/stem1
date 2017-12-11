@@ -1,1 +1,10 @@
+name: Stem
+markdown: kramdown
 theme: jekyll-theme-cayman
+plugins:
+  - jekyll-sitemap
+baseurl: /stem1
+url: http://dhanyacm.github.io/
+include: ["_pages"]
+permalink: /:title/
+permalink: /404.html
