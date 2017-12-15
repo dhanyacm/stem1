@@ -35,6 +35,18 @@
 <!-- js -->
 <script type="text/javascript" src="{{site.baseurl}}/js/jquery-2.1.4.min.js"></script>
 <!--//js -->
+
+{% if page.gallery %}
+<!-- light-case -->
+	<script src="{{site.baseurl}}/js/lightcase.js"></script>
+	<script src="{{site.baseurl}}/js/jquery.events.touch.js"></script>
+	<script>
+		$('.showcase').lightcase();
+	</script>
+<!-- //light-case -->
+{% endif %}
+
+
 <script src="{{site.baseurl}}/js/SmoothScroll.min.js"></script>
 
 {% if page.frontpage %}
